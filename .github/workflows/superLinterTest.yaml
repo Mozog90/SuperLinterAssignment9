@@ -9,7 +9,7 @@ jobs:
     name: Lint
     runs-on: ubuntu-latest
 
-    permissions: write-all
+    permissions: read-all
       contents: read
       packages: read
       # To report GitHub Actions status checks
