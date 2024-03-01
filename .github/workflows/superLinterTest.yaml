@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     permissions: read-all
-      contents: read
+      contents: read-all
       packages: read
       # To report GitHub Actions status checks
       statuses: write
